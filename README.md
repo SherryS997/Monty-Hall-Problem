@@ -10,7 +10,7 @@ Vos Savant's response was that the contestant should switch to the other door. U
 
 When the player first makes their choice, there is a 2/3 chance that the car is behind one of the doors not chosen. This probability does not change after the host opens one of the unchosen doors. When the host provides information about the 2 unchosen doors (revealing that one of them does not have the car behind it), the 2/3 chance that the car is behind one of the unchosen doors rests on the unchosen and unrevealed door, as opposed to the 1/3 chance that the car is behind the door the contestant chose initially.
 
--*From Wikipedia*
+-*From [Wikipedia](https://en.wikipedia.org/wiki/Monty_Hall_problem)*
 
 ## My Implementation
 
