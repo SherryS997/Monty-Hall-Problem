@@ -2,7 +2,12 @@ import random
     
 
 sims = int(input("No of simulations: "))
-doors = int(input("No of doors: "))
+
+while True:
+    doors = int(input("No of doors(Greater than two): "))
+    if doors > 2:
+        break
+
 switch = bool(int(input("Should you switch?(Answer Yes as 1 and No as 0): ")))
 counter = 0
     
@@ -39,6 +44,5 @@ for i in range(sims):
     if simulation(doors, switch):
         counter += 1
 
-print()
-print(f"The number of victories was {counter}")
+print(f"\nThe number of victories was {counter}")
 print(f"The percentage of victories was {round((counter/sims)*100, 2)}")
